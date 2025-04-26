@@ -1,0 +1,45 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore data output
+*.csv
+*.xlsx
+*.h5
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore cache
+.cache/
+*.egg-info/
+dist/
+build/
+
+# Optional: Ignore environment files
+.env
+*.env
+
+# Optional: Ignore Streamlit's temp folders
+.streamlit/
